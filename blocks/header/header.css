@@ -1,0 +1,23 @@
+.header:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header__user
+{
+    float: right;
+}
+
+.header__logo
+{
+    float: left;
+}
+
+.header__menu
+{
+    overflow: hidden;
+    padding: 12px;
+    text-align: center;
+}

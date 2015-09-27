@@ -1,0 +1,13 @@
+{
+  "author": {
+    "name": "Viktor Karpov",
+    "email": "viktor.s.karpov@yandex.ru",
+    "url": "https://github.com/vitkarpov"
+  },
+  "dependencies": {
+    "bem-xjst": "4.2.x"
+  },
+  "scripts": {
+    "build": "node bem.js"
+  }
+}

@@ -1,0 +1,64 @@
+.header:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header__user
+{
+    float: right;
+}
+
+.header__logo
+{
+    float: left;
+}
+
+.header__menu
+{
+    overflow: hidden;
+    padding: 12px;
+    text-align: center;
+}
+.link {
+    display: inline-block;
+    padding: 2px 6px;
+
+    color: #008ACE;
+    border-color: #b2ccf0;
+}
+.logo
+{
+    display: inline-block;
+}
+.page__inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.user
+{
+    display: inline-block;
+}
+
+.user__letter
+{
+    color: red;
+}
+
+.user__avatar
+{
+    display: inline-block;
+    margin-right: 12px;
+
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    overflow: hidden;
+
+    vertical-align: middle;
+}
+
+.user__avatar img
+{
+    display: block;
+}

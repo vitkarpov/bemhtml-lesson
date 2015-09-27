@@ -1,0 +1,26 @@
+.user
+{
+    display: inline-block;
+}
+
+.user__letter
+{
+    color: red;
+}
+
+.user__avatar
+{
+    display: inline-block;
+    margin-right: 12px;
+
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    overflow: hidden;
+
+    vertical-align: middle;
+}
+
+.user__avatar img
+{
+    display: block;
+}

@@ -61,6 +61,30 @@ block('menu')(
 
 https://ru.bem.info/technology/bemhtml/v2/reference/#Стандартные-моды
 
+```js
+block('b1').attrs(function() {
+    return {src: this.ctx.url};
+})
+```
+
+**Предикаты**
+
+```js
+block('b1').match(function() { return !!this.ctx.url; }).tag()('a');
+```
+
+```js
+block('b1').mod('size', 'big')(...)
+```
+
+```js
+block('b1').elem('text')(...)
+```
+
+**Контекст**
+
+https://ru.bem.info/technology/bemhtml/v2/reference/#Контекст
+
 **Примеры и рецепты**
 
 https://ru.bem.info/technology/bemhtml/v2/reference/#Примеры-и-рецепты

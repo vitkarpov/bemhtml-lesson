@@ -1,6 +1,6 @@
 # Практический вебинар по BEMHTML
 
-Что в получится в итоге:
+Что получится в итоге:
 
 ![](https://yadi.sk/i/A_erjdlhjMXnv_XXL.jpg)
 
@@ -49,7 +49,7 @@
 ```js
 block('menu')(
     tag()('ul'),
-    elemMatch('item').tag()('li')
+    elem('item').tag()('li')
 )
 ```
 
@@ -62,7 +62,7 @@ block('menu')(
 https://ru.bem.info/technology/bemhtml/v2/reference/#Стандартные-моды
 
 ```js
-block('b1').attrs(function() {
+block('b1').attrs()(function() {
     return {src: this.ctx.url};
 })
 ```
